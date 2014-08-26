@@ -40,7 +40,7 @@ Installation:
 
 
 Requirements
-============
+-------------
 FancyStat has the following dependencies:
 <ul>
 <li>A working allocator.c following the spec<br />
