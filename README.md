@@ -40,9 +40,10 @@ Installation:
 
 Requirements
 ============
-fancystat has the following dependencies:
-
-A working allocator.c following the following spec
+FancyStat has the following dependencies:<br />
+<ul>
+<li>A working allocator.c following the spec<br />
 http://cgi.cse.unsw.edu.au/~cs1927/14s2/assigns/01/index.php
-
-A terminal emulator that supported ascii escape codes for extended colors.
+</li>
+<li>A terminal emulator that supported ascii escape codes for extended colors.</li>
+</ul>
