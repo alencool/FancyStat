@@ -11,27 +11,29 @@ FancyStat is distributed using the GNU General Public License.
 Installation:
 -------------
 
-1. Add #include "fancystat.c" at the very bottom of your working allocator.c
+1. Add ```#include "fancystat.c" ```at the very bottom of your working allocator.c
 2. Edit line 105 of run_sal.c from: <br />
 	```
-       else if (line[0] == '!') {<br />
-         sal_stats();<br />
+       else if (line[0] == '!') 
+         sal_stats();
 	```   
 	To:<br />
 	```
-	else if (line[0] == '!') {<br />
-	 sal_stats2(ptr);<br />
+	else if (line[0] == '!') 
+	 sal_stats2(ptr);
 	```
+	<br /><br />
    Edit line 53 of allocator.h from<br />
 	```
-	void sal_stats(void);<br />
+	void sal_stats(void);
 	```
+	<br />
    To:<br />
 	```
-	void sal_stats(void);<br />
-	void sal_stats2(void * alpha[26]);<br />
+	void sal_stats(void);
+	void sal_stats2(void * alpha[26]);
 	```
-4. Run make
+4. Run ```make```
 5. Enjoy!
 
 
