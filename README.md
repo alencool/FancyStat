@@ -40,7 +40,7 @@ Installation:
 
 Requirements
 ============
-FancyStat has the following dependencies:<br />
+FancyStat has the following dependencies:
 <ul>
 <li>A working allocator.c following the spec<br />
 http://cgi.cse.unsw.edu.au/~cs1927/14s2/assigns/01/index.php
