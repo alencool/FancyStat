@@ -1,9 +1,10 @@
 FancyStat
 =========
-
 FancyStat is a stat add on for your working allocator.c implementation,
 and displays hopefully a useful 2d diagram of the managed memory from
 allocator.c
+
+![Alt text](http://i.imgur.com/mqqMrZk.png)
 
 FancyStat is distributed using the GNU General Public License. 
 
