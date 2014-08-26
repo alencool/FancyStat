@@ -13,17 +13,24 @@ Installation:
 
 1. Add #include "fancystat.c" at the very bottom of your working allocator.c
 2. Edit line 105 of run_sal.c from: <br />
+	```
        else if (line[0] == '!') {<br />
          sal_stats();<br />
-   To:<br />
-       else if (line[0] == '!') {<br />
-         sal_stats2(ptr);<br />
-<br />
+	```   
+	To:<br />
+	```
+	else if (line[0] == '!') {<br />
+	 sal_stats2(ptr);<br />
+	```
    Edit line 53 of allocator.h from<br />
+	```
 	void sal_stats(void);<br />
+	```
    To:<br />
+	```
 	void sal_stats(void);<br />
 	void sal_stats2(void * alpha[26]);<br />
+	```
 4. Run make
 5. Enjoy!
 
